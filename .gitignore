@@ -1,0 +1,33 @@
+# Runtime secrets and local config
+.env
+*.env
+!.env.example
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Build and packaged artifacts
+build/
+dist/
+*.spec
+*.exe
+
+# Runtime output
+output/
+logs/
+*.log
+*.xlsx
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
